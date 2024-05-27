@@ -1,0 +1,236 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.left-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 300px;
+    background-color: orangered;
+    color: #fff;
+    padding: 20px;
+    
+}
+.left-bar:hover{
+    pointer-events: painted;
+    color: #000000;
+
+}
+
+.left-bar h1 {
+    margin-top: 0;
+}
+
+
+.left-bar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.left-bar li {
+    margin-bottom: 20px;
+}
+
+.left-bar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.main-content {
+    margin-left: 200px;
+    padding: 50px;
+}
+.text{
+    color: orangered;
+    text-decoration: underline;
+}
+.service{
+    color: orangered;
+}
+.Designer{
+   text-align:left;
+
+}
+
+
+.container{
+     max-width: 310px;
+     margin: 10px;
+     background-color: antiquewhite;
+     overflow: auto;
+     
+}
+.info{
+    margin: 5px;
+    border: 1px solid black;
+    width: 300px;
+}
+.info img{
+    width: 100%;
+    height: auto;
+}
+.desc{
+    padding: 15px;
+    text-align: left;
+}
+
+.package {
+    background-color: #531111;
+    padding: 20px;
+    border: 1px solid #e30c0c;
+    margin-bottom: 20px;
+}
+
+.package h2 {
+    margin-top: 0;
+}
+
+.quantity {
+    margin-top: 10px;
+}
+
+.quantity button {
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    border:#ccc;
+    border-radius: 50%;
+    background-color: #ffffff;
+    color: #070101;
+    cursor:grab;
+}
+
+.quantity span {
+    margin: 0 10px;
+}
+
+.sign-up {
+   
+    background-color: rgb(0, 0, 0);
+    color: whitesmoke;
+    border: 2px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.sign-up2 {
+   
+    background-color: rgb(228, 6, 6);
+    color: whitesmoke;
+    border: 2px;
+    padding: 10px 25px;
+    cursor: pointer;
+}
+.thank-you-message {
+    display: block;
+    color: green;
+}
+
+
+
+.pricing-table {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 800px;
+    padding: 20px;
+    
+}
+
+ .package {
+            flex-basis: calc(33.333% - 20px);
+            background-color: rgb(210, 210, 210);
+            text-align: center;
+            border: 1px solid #610d0d;
+            box-shadow: 0 2px 4px rgba(68, 214, 0, 0.1);
+     }
+
+  .Basic {
+            background-color: gray;
+            padding: 5px;
+  }
+.pro{
+    background-color: rgb(242, 59, 59);
+    padding: 5px;
+}
+  
+.tab {
+            border-bottom: 2px solid black;
+            padding: 4px;
+            text-align: center;
+  }
+   
+
+
+.picture{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   margin-top: 100px;
+}
+.pic{
+    width:325px;
+    background-color: azure;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
+    margin:20px;
+}
+.pic img{
+    width: 100%;
+    height: auto;
+
+}
+.pictext{
+    padding: 16px;
+}
+
+.pictext h3{
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+.pictext p{
+    color: #ff4848;
+    font-size: 15px;
+    line-height: 1.2;
+
+}
+.hotelphoto{
+   max-width: 900px;
+   margin: 100px;
+background: white;
+overflow: auto;
+
+}
+.hotelpic{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float:inline-start;
+    width: 390px;
+}
+.hotelpic img{
+    width: 100%;
+    height: auto;
+}
+
+input, textarea{
+
+        width: 50%;
+        padding: 12px;
+        border-radius: 8px;
+        border: none;
+        background-color: wheat;
+        color: #d02727;
+
+}
+.Contract{
+    font-size: 20px;
+    background-color: brown;
+    color: black;
+    border-radius: 10px;
+     width:20%;
+}
