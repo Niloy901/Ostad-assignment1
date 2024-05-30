@@ -110,21 +110,16 @@ body {
 }
 
 .sign-up {
-   
+
+    margin-top: 5px;
     background-color: rgb(0, 0, 0);
     color: whitesmoke;
     border: 2px;
+    border-radius: 2px;
     padding: 10px 20px;
     cursor: pointer;
 }
-.sign-up2 {
-   
-    background-color: rgb(228, 6, 6);
-    color: whitesmoke;
-    border: 2px;
-    padding: 10px 25px;
-    cursor: pointer;
-}
+
 .thank-you-message {
     display: block;
     color: green;
@@ -233,4 +228,8 @@ input, textarea{
     color: black;
     border-radius: 10px;
      width:20%;
+}
+.color{
+ background-color: orangered;
+
 }
